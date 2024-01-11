@@ -8,12 +8,12 @@ int main() {
 
     while(1) {
 
-    printf("Enter the first digit:");
+    printf("Enter the first digit:\n");
     scanf("%d", &a);
-    printf("Enter the second digit:");
+    printf("Enter the second digit:\n");
     scanf("%d", &b);
 
-    printf("Enter the operator:");
+    printf("Enter the operator:\n");
     scanf(" %c", &c); 
 
     if (c == '+') {
@@ -41,3 +41,5 @@ int main() {
 
     return 0;
 }
+
+//saikat
